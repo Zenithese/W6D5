@@ -1,0 +1,47 @@
+/* PHASE 12: Modal */
+.modal-screen {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: #9558a7cc;
+}
+
+.modal-form {
+  position: absolute;
+  top: 20%;
+  bottom: 50%;
+  left: 35%;
+  right: 50%;
+  background-color: whitesmoke;
+  width: 400px;
+  height: 250px;
+  z-index: 3;
+  border: 1px solid gold;
+}
+
+.contents {
+  margin: 15px;
+}
+
+.close {
+  display: float;
+  float: right;
+
+}
+
+#password, #input {
+  border: 1px solid gold;
+}
+
+.header-box {
+  display: inline-block;
+}
+
+.header-box > h1 {
+  font-size: 24px;
+}
+
+.is
